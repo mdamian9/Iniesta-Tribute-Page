@@ -13,9 +13,9 @@
     margin: 10px auto;
 }
 
-/* .footer {
-
-} */
+.footer {
+    margin: 20px 0px;
+}
 
 .my-card {
     margin: 0px 10px 0px 10px;
@@ -24,6 +24,11 @@
 
 .info-text {
     margin: 0px 50px 0px 50px;
+}
+
+.img-icon {
+    height: 40px;
+    width: 40px;
 }
 
 #image {
