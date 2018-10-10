@@ -10,6 +10,11 @@ body {
     text-align: center;
 }
 
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
 .header {
     width: 30%;
     font-size: 24px;
@@ -63,6 +68,8 @@ body {
     max-width: 569px;
     max-height: 320px;
     margin: 0 auto;
+    padding: 10px;
+    background-color: black;
 }
 
 #image {
