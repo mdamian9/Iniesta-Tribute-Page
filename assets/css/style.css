@@ -56,14 +56,22 @@ a:hover {
 }
 
 .iframe {
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 964px;
+    max-height: 542px;
     margin: 0 auto;
 }
 
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0px;
+}
+
 iframe {
-    max-width: 800px;
-    max-height: 800px;
-    width: 100%;
+    left: 0px;
+    top: 0px;
     height: 100%;
+    width: 100%;
+    position: absolute;
 }
