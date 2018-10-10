@@ -1,20 +1,37 @@
+body {
+    background-image: url("../images/spain_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .center-text {
     text-align: center;
 }
 
 .header {
     width: 30%;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    border-color: black;
-    background-color: grey;
+    font-size: 24px;
+    font-weight: bolder;
     color: white;
     margin: 10px auto;
 }
 
+#img-caption {
+    width: 20%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
 .footer {
     margin: 20px 0px;
+}
+
+.footer a {
+    color: black;
 }
 
 .my-card {
@@ -28,7 +45,8 @@
 
 .info {
     width: 600px;
-    background-color: grey;
+    border-radius: 5px;
+    background-color: rgba(180, 0, 0, 0.975);
     margin: 0 auto;
 }
 
